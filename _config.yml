@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale : "en-US"
 site_theme : "air" # Currently available options are "default", "air"
-title : "Dr. Suseendrakumar Duraivel"
+title : "Suseendrakumar Duraivel"
 title_separator : "-"
 name : &name "Suseendrakumar (Kumar) Duraivel"
 description : &description "Postdoctoral Associate at MIT McGovern Institute studying neural mechanisms of language and speech"
@@ -21,7 +21,7 @@ repository : "sduraivel30/sduraivel30.github.io"
 author:
   # Biographic information
   avatar : "profile.png"
-  name : "Dr. Suseendrakumar Duraivel"
+  name : "Suseendrakumar Duraivel"
   pronouns : # example: "he/him" 
   bio : "Postdoctoral Associate at MIT McGovern Institute for Brain Research"
   location : "Cambridge, MA"
@@ -45,8 +45,8 @@ author:
 publication_category:
   manuscripts:
     title: 'Journal Articles' 
-  conferences:
-    title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser : # filename of teaser fallback teaser image placed in /images/

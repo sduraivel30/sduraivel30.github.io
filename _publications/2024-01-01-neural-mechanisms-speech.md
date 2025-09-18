@@ -1,7 +1,7 @@
 ---
 title: "Neural mechanisms of the transition from planning to execution in speech production"
-collection: Preprints
-category: manuscripts
+collection: publications
+category: preprints
 permalink: /publication/2024-neural-mechanisms-speech
 date: 2024-01-01
 venue: 'bioRxiv'

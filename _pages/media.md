@@ -5,6 +5,6 @@ permalink: /media/
 author_profile: true
 ---
 
-I have been fortunate to have some of my research work covered by popular media:
+A selection of press and media coverage of my research:
 
 {% include media-list.html %}

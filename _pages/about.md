@@ -26,3 +26,10 @@ I completed my Ph.D. in Biomedical Engineering at Duke University, where I condu
 ## Research Updates
 
 {% include research-updates.html %}
+
+---
+
+## Contact
+
+- Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
+- LinkedIn: [linkedin.com/in/{{ site.author.linkedin }}](https://www.linkedin.com/in/{{ site.author.linkedin }})

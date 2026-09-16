@@ -1,0 +1,7 @@
+<div class="news-scroll-container">
+  {% for item in site.data.news %}
+  <div class="news-item">
+    &bull; <span class="news-date">{{ item.date }}</span>: {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}
+  </div>
+  {% endfor %}
+</div>

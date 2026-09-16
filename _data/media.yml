@@ -1,0 +1,58 @@
+# Media coverage list shown on the Media page (/media/).
+# Add a new entry at the TOP of each year, newest year first.
+# `outlet` is bolded, `title` becomes the link text, `url` is the article/segment link.
+#
+# The 2023 entries below cover press pickup of:
+# Duraivel et al. (2023), "High-resolution neural recordings improve the accuracy of speech decoding," Nature Communications.
+# Sourced from Altmetric (https://nature.altmetric.com/details/156211093), filtered to higher-profile
+# outlets with a real article link (dozens of smaller syndication/aggregator sites were left out).
+#
+# The 2026 entries below cover coverage of:
+# Spalding, Duraivel et al. (2026), "Shared latent representations of speech production for
+# cross-patient speech decoding," Nature Communications; and Duraivel et al. (2026), "Distinct
+# neural processes link speech planning and execution," Nature Human Behaviour.
+
+- year: 2026
+  outlet: "Nature Human Behaviour (Research Briefing)"
+  title: "How speech plans become spoken sequences"
+  url: "https://www.nature.com/articles/s41562-026-02545-x"
+- year: 2026
+  outlet: "MedicalXpress"
+  title: "Pooling patient brain signals could speed brain-to-speech devices, human trial finds"
+  url: "https://medicalxpress.com/news/2026-09-pooling-patient-brain-speech-devices.html"
+- year: 2026
+  outlet: "The Duke Chronicle"
+  title: "Duke researchers refine automated speech devices used by ALS patients in recent study"
+  url: "https://www.dukechronicle.com/article/8131002d-931f-430f-be37-e6dcfb37ecb4"
+- year: 2023
+  outlet: "BBC World Service (Newsday)"
+  title: "Brain implant translates thought into speech"
+  url: "https://www.bbc.co.uk/programmes/p0gr64gr"
+- year: 2023
+  outlet: "Newsweek"
+  title: "Brain Implant Translates Thoughts Into Words Faster Than Ever"
+  url: "https://www.newsweek.com/brain-implant-translates-thoughts-words-faster-1841046"
+- year: 2023
+  outlet: "ScienceDaily"
+  title: "Brain implant may enable communication from thoughts alone"
+  url: "https://www.sciencedaily.com/releases/2023/11/231106134844.htm"
+- year: 2023
+  outlet: "ScienceAlert"
+  title: "Amazing Tiny Brain Implant Translates Brain Signals Into Speech"
+  url: "https://www.sciencealert.com/amazing-tiny-brain-implant-translates-brain-signals-into-speech"
+- year: 2023
+  outlet: "New Atlas"
+  title: "Implant uses brain signals to decode what people are trying to say"
+  url: "https://newatlas.com/science/brain-implant-signals-decode-speech/"
+- year: 2023
+  outlet: "GEN — Genetic Engineering & Biotechnology News"
+  title: "Neural Prosthetic Translates Human Brain Signals into Speech"
+  url: "https://www.genengnews.com/topics/translational-medicine/neural-prosthetic-translates-human-brain-signals-into-speech/"
+- year: 2023
+  outlet: "Technology Networks"
+  title: "Brain Implant Can Enable Communication Through Thoughts Alone"
+  url: "https://www.technologynetworks.com/tn/news/brain-implant-can-enable-communication-through-thoughts-alone-380720"
+- year: 2023
+  outlet: "The Week (India)"
+  title: "Speech prosthetic translates brain signals into spoken words"
+  url: "https://www.theweek.in/news/sci-tech/2023/11/11/speech-prosthetic-translates-brain-signals-into-spoken-words.html"

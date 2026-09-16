@@ -14,3 +14,15 @@ I completed my Ph.D. in Biomedical Engineering at Duke University, where I condu
 ---
 
 *I am passionate about bridging the gap between basic neuroscience and clinical applications using engineering techniques, with the ultimate goal of advancing our understanding of human cognition.Throughout this journey, I’ve collaborated closely with neuroscientists, clinicians, and neural engineers—and am deeply grateful to the patient participants whose altruism advances science*
+
+---
+
+## News & Talks
+
+{% include news-feed.html %}
+
+---
+
+## Research Updates
+
+{% include research-updates.html %}

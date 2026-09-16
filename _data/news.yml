@@ -1,0 +1,31 @@
+# News & Talks feed shown on the homepage.
+# Add a new entry at the TOP of this list each time you have something to announce
+# (a talk, a new paper, an award, a guest lecture, etc). Newest first.
+# `text` supports Markdown, e.g. [link text](https://example.com).
+
+- date: "August 2026"
+  text: "Presented a talk and a poster at [Cognitive Computational Neuroscience (CCN) 2026](https://2026.ccneuro.org/)."
+- date: "February 2026"
+  text: "Awarded the Patrick J. McGovern Travel & Technology Award, MIT."
+- date: "August 2026"
+  text: "New paper: [\"Distinct neural processes link speech planning and execution\"](https://doi.org/10.1038/s41562-026-02546-w), published in Nature Human Behavior."
+- date: "August 2026"
+  text: "New paper: [\"Shared latent representations of speech production for cross-patient speech decoding\"](https://doi.org/10.1038/s41467-026-75455-1), published in Nature Communications (with Zachary Spalding et al.)."
+- date: "May 2026"
+  text: "New preprint: \"Monosynaptic connections link functionally similar regions in human cortex\" (bioRxiv, 2026-05), currently under review at Nature."
+- date: "October 2024"
+  text: "Invited lab meeting speaker at the Brain Modulation Lab, MGH, Cambridge, MA."
+- date: "September 2024"
+  text: "Started as a Postdoctoral Associate at the McGovern Institute for Brain Research, MIT, working with Evelina Fedorenko and Mark Richardson."
+- date: "July 2024"
+  text: "Defended my Ph.D. dissertation, \"Quantifying spatio-temporal features of neural activity for human speech production,\" at Duke University (advisors: Gregory Cogan & Jonathan Viventi)."
+- date: "June 2024"
+  text: "Awarded the MIBR research fellowship, McGovern Institute for Brain Research, MIT."
+- date: "March 2024"
+  text: "Invited lab meeting speaker, Department of Neurosurgery, University of Pennsylvania, Pittsburgh, PA."
+- date: "February 2024"
+  text: "Invited lab meeting speaker, Prof. Ev Fedorenko lab, McGovern Institute for Brain Research, MIT, Cambridge, MA."
+- date: "January 2024"
+  text: "Invited speaker, Translational Neural Engineering Club, University of Michigan, Ann Arbor."
+- date: "November 2022"
+  text: "Shared my work mapping the brain's speech and auditory regions at a [Duke Institute for Brain Sciences](https://dibs.duke.edu/)-sponsored Duke Alumni event."

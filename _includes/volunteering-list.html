@@ -1,0 +1,7 @@
+<ul class="dated-list">
+  {% for item in site.data.volunteering %}
+  <li>
+    <i>{{ item.date }}</i>&emsp;<b>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.role }}</a>{% else %}{{ item.role }}{% endif %}</b>{% if item.text and item.text != "" %}: {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>

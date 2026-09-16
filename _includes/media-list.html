@@ -1,0 +1,6 @@
+<ul class="dated-list">
+  {% assign items = site.data.media | sort: "year" | reverse %}
+  {% for item in items %}
+  <li><i>{{ item.year }}</i>&emsp;<b>{{ item.outlet }}:</b> <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>.</li>
+  {% endfor %}
+</ul>

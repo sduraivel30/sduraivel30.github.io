@@ -1,0 +1,44 @@
+{% include base_path %}
+
+<div class="research-update-container">
+  {% assign updates = site.research_updates | sort: "date" | reverse %}
+  {% for update in updates %}
+  <div class="research-update">
+    <small class="date">{{ update.date | date: "%B %Y" }}</small>
+    <h3>{{ update.title }}</h3>
+
+    <div class="research-update-content">
+      {% if update.image %}
+      <div class="research-update-image">
+        <img src="{{ update.image | prepend: base_path }}" alt="{{ update.title }}">
+      </div>
+      {% endif %}
+
+      <div class="research-update-text">
+        {{ update.content }}
+
+        {% if update.more %}
+        <details class="read-more">
+          <summary>Read more</summary>
+          <div class="read-more-content">{{ update.more | markdownify }}</div>
+        </details>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if update.citation %}
+    <p class="citation-bottom">
+      {{ update.citation }}
+      {% if update.highlight and update.highlight != "" %}
+      <span class="paper-highlight">{{ update.highlight }}</span>
+      {% endif %}
+      {% if update.links %}
+      <span class="paper-links">
+        {% for link in update.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+      </span>
+      {% endif %}
+    </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

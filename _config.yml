@@ -146,6 +146,8 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  research_updates:
+    output: false
 
 # Defaults
 defaults:
